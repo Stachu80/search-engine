@@ -1,5 +1,6 @@
 package com.infoshareacademy.searchengine.servlets;
 
+import com.infoshareacademy.searchengine.dao.UsersRepositoryDao;
 import com.infoshareacademy.searchengine.dao.UsersRepositoryDaoBean;
 import com.infoshareacademy.searchengine.domain.User;
 
@@ -20,7 +21,12 @@ public class FindUserByIdServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // provide your code here
 
-        UsersRepositoryDaoBean dao = new UsersRepositoryDaoBean();
+        if (req.getParameter("id") == null) {
+            resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+            return;
+        }
+
+        UsersRepositoryDao dao = new UsersRepositoryDaoBean();
         List<User> list = dao.getUsersList();
 
         PrintWriter writer = resp.getWriter();
@@ -39,7 +45,7 @@ public class FindUserByIdServlet extends HttpServlet {
 
 
         } else {
-            resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+            resp.setStatus(HttpServletResponse.SC_NOT_FOUND);
         }
     }
 }

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d37850f0-b2a7-482a-b8cc-26af4218fcb9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/search-engine.war" afterPath="$PROJECT_DIR$/target/search-engine.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/infoshareacademy/searchengine/servlets/FindUserByIdServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/infoshareacademy/searchengine/servlets/FindUserByIdServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,8 +111,8 @@
       <file leaf-file-name="FindUserByIdServlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/searchengine/servlets/FindUserByIdServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="231">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,8 +203,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="135" />
-    <option name="y" value="255" />
+    <option name="x" value="278" />
+    <option name="y" value="359" />
     <option name="width" value="1725" />
     <option name="height" value="1137" />
   </component>
@@ -459,7 +461,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511018458694</updated>
-      <workItem from="1511018460315" duration="10635000" />
+      <workItem from="1511018460315" duration="11244000" />
     </task>
     <task id="LOCAL-00001" summary="pierwszy krok">
       <created>1511019559546</created>
@@ -503,14 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1511030329435</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="zadanie4">
+      <created>1511030336087</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1511030336087</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10635000" />
+    <option name="totallyTimeSpent" value="11244000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="255" width="1725" height="1137" extended-state="0" />
+    <frame x="278" y="359" width="1725" height="1137" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -709,8 +718,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/infoshareacademy/searchengine/servlets/FindUserByIdServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="231">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

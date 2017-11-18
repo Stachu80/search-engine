@@ -9,13 +9,25 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet("/michal")
-public class HelloServlet extends HttpServlet {
+
+@WebServlet("/welcome-user")
+public class WelcomeUserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // provide your code here
         PrintWriter writer = resp.getWriter();
-        writer.println("Hello World! michal");
+        String name = req.getParameter("name");
+        if (name != null) {
+            writer.println("<!DOCTYPE html>");
+            writer.println("<html>");
+            writer.println("<body>");
+            writer.println("Hello"+"    "+ name+ "!<br/>");
+            writer.println("</body>");
+            writer.println("</html>");
 
+
+        } else {
+            resp.setStatus(HttpServletResponse.SC_BAD_REQUEST);
+        }
     }
 }

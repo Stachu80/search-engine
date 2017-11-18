@@ -1,1 +1,7 @@
 /home/michalstasinski/IdeaProjects/searchengine/src/main/java/com/infoshareacademy/searchengine/Main.java
+/home/michalstasinski/IdeaProjects/searchengine/src/main/java/com/infoshareacademy/searchengine/servlets/HelloServlet.java
+/home/michalstasinski/IdeaProjects/searchengine/src/main/java/com/infoshareacademy/searchengine/dao/UsersRepository.java
+/home/michalstasinski/IdeaProjects/searchengine/src/main/java/com/infoshareacademy/searchengine/dao/UsersRepositoryDao.java
+/home/michalstasinski/IdeaProjects/searchengine/src/main/java/com/infoshareacademy/searchengine/servlets/WelcomeUserServlet.java
+/home/michalstasinski/IdeaProjects/searchengine/src/main/java/com/infoshareacademy/searchengine/dao/UsersRepositoryDaoBean.java
+/home/michalstasinski/IdeaProjects/searchengine/src/main/java/com/infoshareacademy/searchengine/domain/User.java

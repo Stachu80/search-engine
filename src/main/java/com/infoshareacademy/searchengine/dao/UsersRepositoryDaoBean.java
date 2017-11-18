@@ -1,9 +1,10 @@
 package com.infoshareacademy.searchengine.dao;
 
 import com.infoshareacademy.searchengine.domain.User;
-
+import javax.ejb.Stateless;
 import java.util.List;
 
+@Stateless
 public class UsersRepositoryDaoBean implements UsersRepositoryDao {
 
 

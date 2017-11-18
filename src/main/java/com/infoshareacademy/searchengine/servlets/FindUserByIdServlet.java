@@ -5,6 +5,7 @@ import com.infoshareacademy.searchengine.dao.UsersRepositoryDaoBean;
 import com.infoshareacademy.searchengine.domain.User;
 
 import java.io.IOException;
+import javax.ejb.EJB;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -17,6 +18,11 @@ import java.util.List;
 
 @WebServlet("/ind-user-id")
 public class FindUserByIdServlet extends HttpServlet {
+
+    @EJB
+    UsersRepositoryDao dao;
+
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // provide your code here
@@ -26,7 +32,8 @@ public class FindUserByIdServlet extends HttpServlet {
             return;
         }
 
-        UsersRepositoryDao dao = new UsersRepositoryDaoBean();
+
+        // UsersRepositoryDaoBean dao= new UsersRepositoryDaoBean();
         List<User> list = dao.getUsersList();
 
         PrintWriter writer = resp.getWriter();
